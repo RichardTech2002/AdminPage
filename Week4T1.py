@@ -3,4 +3,8 @@ app = flask (__name__)
 
 @app.route('/')
 def Write():
-    return 'Hello World!'
+    return '<h1>Welcome to our law firm!</h1>'
+
+@app.route('/about')
+def Write_About():
+    return '<h1>About Page</h1>'
