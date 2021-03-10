@@ -3,6 +3,7 @@ app = flask (__name__)
 
 @app.route('/')
 def Write():
+    return '<img scr = LawLogo.png>'
     return '<h1>Welcome to our law firm!</h1>'
 
 @app.route('/about')
