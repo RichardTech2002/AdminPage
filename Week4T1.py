@@ -13,11 +13,11 @@ def Write():
         </html>'
 
 
-@app.route('/about')
+"""@app.route('/about')
 def Write_About():
     return '<h1>About Page</h1>'
 
 
 @app.route('/Contact')
 def Write_Contact():
-    return '<h1>Contact</h1>'
+    return '<h1>Contact</h1>'"""
