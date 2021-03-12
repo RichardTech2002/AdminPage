@@ -5,8 +5,12 @@ app = Flask(__name__)
 @app.route('/')
 def Write():
     return '<!DOCTYPE HTML>\
-        <h1>Welcome to our law firm!</h1>\
-        <img scr = Law_Logo.png>'
+        <html>\
+            <body>\
+                <h1>Welcome to our law firm!</h1>\
+                <img scr = Law_Logo.png>\
+            </body>\
+        </html>'
 
 
 @app.route('/about')
