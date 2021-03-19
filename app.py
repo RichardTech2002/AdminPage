@@ -1,4 +1,4 @@
-"""This is the main flask app file"""
+"""This is the main flask app file""" # I just want to straight up steal this code
 from flask import Flask, render_template
 import names
 
