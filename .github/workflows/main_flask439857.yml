@@ -29,7 +29,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'flask439857'
+        app-name: 'FlaskApp8756'
         slot-name: 'production'
         package-name: "."
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_3e77b225881c4752926207d2a97f522e }}
